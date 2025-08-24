@@ -231,7 +231,7 @@ export default function HomePage() {
               <CardContent className="p-6">
                 <div className="w-full h-48 bg-muted rounded-lg mb-4 flex items-center justify-center">
                   <img
-                    src="/placeholder-ytwjt.png"
+                    src="/btom3.jpg"
                     alt="Current Edition"
                     className="w-full h-full object-cover rounded-lg"
                   />
@@ -254,7 +254,15 @@ export default function HomePage() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             <Card>
               <CardContent className="p-6">
-                <div className="w-full h-48 bg-background rounded-lg mb-4"></div>
+
+                {/* <div className="w-full h-48 bg-background rounded-lg mb-4"></div> */}
+                <div className="w-full h-48 bg-muted rounded-lg mb-4 flex items-center justify-center">
+                  <img
+                    src="/btom.jpg"
+                    alt="Current Edition"
+                    className="w-full h-full object-cover rounded-lg"
+                  />
+                </div>
                 <h3 className="text-xl font-serif font-bold mb-2">Athlete Spotlight</h3>
                 <p className="text-muted-foreground">
                   Featured stories from our firefighter athletes and their achievements.
@@ -263,14 +271,27 @@ export default function HomePage() {
             </Card>
             <Card>
               <CardContent className="p-6">
-                <div className="w-full h-48 bg-background rounded-lg mb-4"></div>
+                <div className="w-full h-48 bg-muted rounded-lg mb-4 flex items-center justify-center">
+                  <img
+                    src="/btom2.jpeg"
+                    alt="Current Edition"
+                    className="w-full h-full object-cover rounded-lg"
+                  />
+                </div>
                 <h3 className="text-xl font-serif font-bold mb-2">News & Updates</h3>
                 <p className="text-muted-foreground">Latest news from the firefighter fitness community.</p>
               </CardContent>
             </Card>
             <Card>
               <CardContent className="p-6">
-                <div className="w-full h-48 bg-background rounded-lg mb-4"></div>
+                <div className="w-full h-48 bg-muted rounded-lg mb-4 flex items-center justify-center">
+                  <img
+                    src="/ss.jpeg"
+                    alt="Current Edition"
+                    className="w-full h-full object-cover rounded-lg"
+                  />
+                </div>
+                {/* <div className="w-full h-48 bg-background rounded-lg mb-4"></div> */}
                 <h3 className="text-xl font-serif font-bold mb-2">Success Stories</h3>
                 <p className="text-muted-foreground">Inspiring stories from challenge participants.</p>
               </CardContent>
